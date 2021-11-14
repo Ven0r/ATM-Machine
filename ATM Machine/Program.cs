@@ -26,10 +26,10 @@ namespace ATM_Machine
     // TODO: create users
     class User{
         //TODO: Login
-        public static Login(){
+        public bool Login(){
             return endApp = true; 
         }
-        public static Logout(){
+        public bool Logout(){
             return endApp = true; 
         }
 
