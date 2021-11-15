@@ -11,12 +11,25 @@ namespace ATM_Machine
             Console.WriteLine("--------------------------");
             Console.WriteLine("------= ATM MACHINE =-----");
             Console.WriteLine("--------------------------");
+            Console.WriteLine("1. Login");
+            Console.WriteLine("9. Close App");
+            Console.WriteLine("--------------------------");
             
             while (!endApp){
                 //TODO: Ask user Name and pin Login
-                if (Console.ReadLine() == 1) User.Login();
+                if (Console.ReadLine() == 1){
+                   User.Login(); 
+                } 
+                
+                // Admin Secret Login
+                if (Console.ReadLine() == "admin"){
+                   User.AdminPanel(); 
+                } 
+
                 //TODO: Give authorized user access to account 
+                
                 //TODO: Give options to Transact or pull balance
+                
                 //TODO: Logout
                 if (Console.ReadLine() == 9) User.Logout();
             }
@@ -28,7 +41,7 @@ namespace ATM_Machine
     class User{
         //TODO: Login
         public bool Login(){
-            return endApp = true; 
+            Transaction();
         }
         public bool Logout(){
             return endApp = true; 
@@ -38,7 +51,16 @@ namespace ATM_Machine
 
     // TODO: Deposil/Withdraw
     class Transaction{
-        
+           static int Withdraw(){
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("------= ATM MACHINE =-----");
+            Console.WriteLine("--------Transaction-------");
+           } 
+           static int Deposit(){
+            Console.WriteLine("--------------------------");
+            Console.WriteLine("------= ATM MACHINE =-----");
+            Console.WriteLine("--------Transaction-------");
+           } 
     }
 
     // TODO: Admin Panel
@@ -57,3 +79,23 @@ namespace ATM_Machine
         
     }
 }
+
+
+
+
+
+
+
+
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("------= ATM MACHINE =-----");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("1. Login");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
+            //Console.WriteLine("--------------------------");
