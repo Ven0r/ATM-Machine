@@ -1,5 +1,6 @@
 ﻿//This is a basic ATM Simulator. 
 using System;
+using Display;
 
 namespace ATM_Machine
 {
@@ -8,12 +9,6 @@ namespace ATM_Machine
         static void Main(string[] args)
         {
             bool endApp = false;
-            Console.WriteLine("--------------------------");
-            Console.WriteLine("------= ATM MACHINE =-----");
-            Console.WriteLine("--------------------------");
-            Console.WriteLine("1. Login");
-            Console.WriteLine("9. Close App");
-            Console.WriteLine("--------------------------");
             
             while (!endApp){
                 //TODO: Ask user Name and pin Login
@@ -52,14 +47,8 @@ namespace ATM_Machine
     // TODO: Deposil/Withdraw
     class Transaction{
            static int Withdraw(){
-            Console.WriteLine("--------------------------");
-            Console.WriteLine("------= ATM MACHINE =-----");
-            Console.WriteLine("--------Transaction-------");
            } 
            static int Deposit(){
-            Console.WriteLine("--------------------------");
-            Console.WriteLine("------= ATM MACHINE =-----");
-            Console.WriteLine("--------Transaction-------");
            } 
     }
 
