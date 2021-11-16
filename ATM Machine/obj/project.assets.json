@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\plout\\Desktop\\C#\\ATM Machine\\ATM Machine.csproj",
+      "projectUniqueName": "C:\\Users\\plout\\Desktop\\C#\\ATM-Machine\\ATM Machine\\ATM Machine.csproj",
       "projectName": "ATM Machine",
-      "projectPath": "C:\\Users\\plout\\Desktop\\C#\\ATM Machine\\ATM Machine.csproj",
+      "projectPath": "C:\\Users\\plout\\Desktop\\C#\\ATM-Machine\\ATM Machine\\ATM Machine.csproj",
       "packagesPath": "C:\\Users\\plout\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\plout\\Desktop\\C#\\ATM Machine\\obj\\",
+      "outputPath": "C:\\Users\\plout\\Desktop\\C#\\ATM-Machine\\ATM Machine\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\plout\\AppData\\Roaming\\NuGet\\NuGet.Config",

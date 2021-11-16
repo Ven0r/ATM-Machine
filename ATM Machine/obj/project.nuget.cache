@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "sB5jOwSdU1aXBbmaIsv63u27V7F7O3KxYPVYWSlfJpvQ6YCeRGJKGVQ4YaYjPG+SJ1XguARIheleclCHotJeUA==",
+  "dgSpecHash": "R1kMcpKa7a8idT/2MWZ+hZCr/lstSQfFvI7uu+wzZ7BS+lwve7MUAqkM6QlAxFXGkd2LtJIO19UJnQ7anlNL1g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\plout\\Desktop\\C#\\ATM Machine\\ATM Machine.csproj",
+  "projectFilePath": "C:\\Users\\plout\\Desktop\\C#\\ATM-Machine\\ATM Machine\\ATM Machine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

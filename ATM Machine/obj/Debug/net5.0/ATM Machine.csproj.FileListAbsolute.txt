@@ -1,0 +1,5 @@
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.csproj.AssemblyReference.cache
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.AssemblyInfoInputs.cache
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.AssemblyInfo.cs
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.csproj.CoreCompileInputs.cache

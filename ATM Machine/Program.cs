@@ -9,6 +9,7 @@ namespace ATM_Machine
         static void Main(string[] args)
         {
             bool endApp = false;
+            Display.Screen.Start();
             
             while (!endApp){
                 //TODO: Ask user Name and pin Login
