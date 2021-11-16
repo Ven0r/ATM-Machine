@@ -2,7 +2,6 @@
 using System;
 using Display;
 using Accounts;
-using DB;
 
 namespace ATM_Machine
 {
