@@ -3,3 +3,14 @@ C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.G
 C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.AssemblyInfoInputs.cache
 C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.AssemblyInfo.cs
 C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.csproj.CoreCompileInputs.cache
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ATM Machine.exe
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ATM Machine.deps.json
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ATM Machine.runtimeconfig.json
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ATM Machine.runtimeconfig.dev.json
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ATM Machine.dll
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ref\ATM Machine.dll
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\bin\Debug\net5.0\ATM Machine.pdb
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.dll
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ref\ATM Machine.dll
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.pdb
+C:\Users\plout\Desktop\C#\ATM-Machine\ATM Machine\obj\Debug\net5.0\ATM Machine.genruntimeconfig.cache

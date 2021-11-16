@@ -9,5 +9,9 @@
     <Content Include="Program.cs" />
     <Content Include="Display\Display.cs" />
     <Content Include="obj\Debug\net5.0\ATM Machine.csproj.CoreCompileInputs.cache" />
+    <Content Include="ATM\atm.cs" />
+    <Content Include="DB\db.cs" />
+    <Content Include="User\encrypt.cs" />
+    <Content Include="User\user.cs" />
   </ItemGroup>
 </Project>
