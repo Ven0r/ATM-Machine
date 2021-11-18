@@ -11,7 +11,7 @@
     <Content Include="obj\Debug\net5.0\ATM Machine.csproj.CoreCompileInputs.cache" />
     <Content Include="ATM\atm.cs" />
     <Content Include="DB\db.cs" />
-    <Content Include="User\encrypt.cs" />
-    <Content Include="User\user.cs" />
+    <Content Include="Usr\encrypt.cs" />
+    <Content Include="Usr\user.cs" />
   </ItemGroup>
 </Project>

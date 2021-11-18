@@ -2,6 +2,7 @@
 using System;
 using Display;
 using Accounts;
+using ATM;
 
 namespace ATM_Machine
 {
@@ -12,9 +13,11 @@ namespace ATM_Machine
         {
             bool endApp = false;
             
+            
             while (!endApp)
             {
-                Screen.Start();
+                Start.Run();
+                Console.ReadKey(true);
             }
                
         }
