@@ -1,8 +1,6 @@
 using System;
-using DB;
-using Display;
 
-namespace ATM
+namespace ATM_Machine
 {
     // Transaction class that handles all the basic functions of the atm.
     // Withdraw, Deposit, Check Balance.
@@ -11,7 +9,19 @@ namespace ATM
     {
        public static void Run()
        {
-           Screen.Banner();
+           //Variables for the menu
+        string[] options = {"Login","Check Balance","Deposit","Withdraw","Exit"};
+        string prompt = @"   
+                                       █████╗ ████████╗███╗   ███╗    ███╗   ███╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗███████╗
+                                      ██╔══██╗╚══██╔══╝████╗ ████║    ████╗ ████║██╔══██╗██╔════╝██║  ██║██║████╗  ██║██╔════╝
+                                      ███████║   ██║   ██╔████╔██║    ██╔████╔██║███████║██║     ███████║██║██╔██╗ ██║█████╗  
+                                      ██╔══██║   ██║   ██║╚██╔╝██║    ██║╚██╔╝██║██╔══██║██║     ██╔══██║██║██║╚██╗██║██╔══╝  
+                                      ██║  ██║   ██║   ██║ ╚═╝ ██║    ██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║██║██║ ╚████║███████╗
+                                      ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝";
+                                      
+            // Create Menu Object
+           Menu atmMachine = new Menu(prompt, options);
+           atmMachine.DisplayOptions();
 
            // Grab key pressed
            ConsoleKeyInfo keyPressed = Console.ReadKey();
@@ -21,7 +31,7 @@ namespace ATM
 
 
 
-           
+
            // Check the key pressed
            //if (keyPressed.Key == ConsoleKey.Enter)
            //{

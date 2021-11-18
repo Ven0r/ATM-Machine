@@ -1,8 +1,5 @@
 ﻿//This is a basic ATM Simulator. 
 using System;
-using Display;
-using Accounts;
-using ATM;
 
 namespace ATM_Machine
 {
