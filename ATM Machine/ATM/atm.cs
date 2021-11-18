@@ -9,7 +9,7 @@ namespace ATM_Machine
     {
        public static void Run()
        {
-           //Variables for the menu
+        //Variables for the menu
         string[] options = {"Login","Check Balance","Deposit","Withdraw","Exit"};
         string prompt = @"   
                                        █████╗ ████████╗███╗   ███╗    ███╗   ███╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗███████╗
@@ -19,20 +19,17 @@ namespace ATM_Machine
                                       ██║  ██║   ██║   ██║ ╚═╝ ██║    ██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║██║██║ ╚████║███████╗
                                       ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝";
                                       
-            // Create Menu Object
+        // Create Menu Object
            Menu atmMachine = new Menu(prompt, options);
            atmMachine.DisplayOptions();
 
-           // Grab key pressed
+        // Grab key pressed
            ConsoleKeyInfo keyPressed = Console.ReadKey();
            
-           // Check the key pressed
+        // Check the key pressed
            
 
-
-
-
-           // Check the key pressed
+        // Check the key pressed
            //if (keyPressed.Key == ConsoleKey.Enter)
            //{
            //    Console.WriteLine("You Pressed Enter");

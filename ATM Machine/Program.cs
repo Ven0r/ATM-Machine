@@ -10,13 +10,10 @@ namespace ATM_Machine
         {
             bool endApp = false;
             
-            
             while (!endApp)
             {
                 Start.Run();
-                Console.ReadKey(true);
             }
-               
         }
     }
 }
