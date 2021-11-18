@@ -1,22 +1,28 @@
 using System;
 
-namespace Display
+namespace ATM_Machine
 {
-    public class Screen
+    class Menu
     {
         private int SelectedIndex;
-        private string Prompt;
-        private string[] menu = {"Login","Check Balance","Deposit","Withdraw","Exit"};
-
-        static public void Banner(){
-                Console.WriteLine(@"   
-                                       █████╗ ████████╗███╗   ███╗    ███╗   ███╗ █████╗  ██████╗██╗  ██╗██╗███╗   ██╗███████╗
-                                      ██╔══██╗╚══██╔══╝████╗ ████║    ████╗ ████║██╔══██╗██╔════╝██║  ██║██║████╗  ██║██╔════╝
-                                      ███████║   ██║   ██╔████╔██║    ██╔████╔██║███████║██║     ███████║██║██╔██╗ ██║█████╗  
-                                      ██╔══██║   ██║   ██║╚██╔╝██║    ██║╚██╔╝██║██╔══██║██║     ██╔══██║██║██║╚██╗██║██╔══╝  
-                                      ██║  ██║   ██║   ██║ ╚═╝ ██║    ██║ ╚═╝ ██║██║  ██║╚██████╗██║  ██║██║██║ ╚████║███████╗
-                                      ╚═╝  ╚═╝   ╚═╝   ╚═╝     ╚═╝    ╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝╚══════╝
-                                                                                        ");
+        private string Prompt; 
+        private string[] Options; 
+        
+        public Menu(string prompt, string[] options)
+        {
+            Prompt = prompt;
+            Options = options;
+            SelectedIndex = 0;
+        }
+        
+        public void DisplayOptions()
+        {
+            Console.WriteLine(Prompt);
+            for (int i = 0; i < Options.Length; i++)
+            {
+                string currentOption = Options[i];
+                Console.WriteLine($"<<{currentOption}>>");
+            }
         }
     }
 }
