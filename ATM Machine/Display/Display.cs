@@ -15,7 +15,7 @@ namespace ATM_Machine
             SelectedIndex = 0;
         }
         
-        private void DisplayOptions()
+        public void DisplayOptions()
         {
             Console.WriteLine(Prompt);
             for (int i = 0; i < Options.Length; i++)
